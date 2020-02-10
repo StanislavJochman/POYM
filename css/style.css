@@ -362,3 +362,10 @@ p {
 html {
   scroll-behavior: smooth;
 }
+.contact_icons{
+  font-size: 2rem;
+  color: #e6a756;
+}
+.contact_icons:hover{
+  color: #df902a;
+}
