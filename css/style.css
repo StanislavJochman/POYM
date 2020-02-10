@@ -261,20 +261,6 @@ p {
 
 /* FontAwesome for working BootSnippet :> */
 
-.btn-primary:hover,
-.btn-primary:focus {
-    background-color: #108d6f;
-    border-color: #108d6f;
-    box-shadow: none;
-    outline: none;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #e6a756 ;
-    border-color: #e6a756 ;
-}
-
 #team .card {
     border: none;
     background: #ffffff;
@@ -371,4 +357,8 @@ p {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
