@@ -369,3 +369,9 @@ html {
 .contact_icons:hover{
   color: #df902a;
 }
+.curr_time{
+  font-style: italic;
+}
+#curr_time{
+  font-style: italic;
+}
