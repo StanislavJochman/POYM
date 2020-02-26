@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Power of young minds - Leaf</title>
+    <title>Power of young minds - Meetup</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -59,8 +59,8 @@
     </nav>
 
     <h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class="site-heading-upper text-primary mb-3">Let's think of ways to develop your personality and ideas</span>
-      <span class="site-heading-lower">Power of young minds</span>
+      <!--<span class="site-heading-upper text-primary mb-3">Let's think of ways to develop your personality and ideas</span>-->
+      <span class="site-heading-upper">Power of young minds</span>
     </h1>
     
     <section class="page-section clearfix">
@@ -72,10 +72,15 @@
               <span class="site-heading-lower text-primary "><b>Power of young minds</b></span>
             </h2>
             <p class="mb-3">
-              Zaujíma ťa rozvoj osobnosti no nevieš ako začať?
+              Zaujíma ťa rozvoj osobnosti no nevieš ako začať?Zaujíma ťa rozvoj osobnosti 
+              no nevieš ako začať?Zaujíma ťa rozvoj osobnosti no nevieš ako začať?
+              Zaujíma ťa rozvoj osobnosti no nevieš ako začať?Zaujíma ťa rozvoj 
+              osobnosti no nevieš ako začať?Zaujíma ťa rozvoj osobnosti no nevieš
+               ako začať?Zaujíma ťa rozvoj osobnosti no nevieš ako začať?Zaujíma
+                ťa rozvoj osobnosti no nevieš ako začať?
             </p>
             <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="about.html">Chcem vedieť viac</a>
+              <a class="btn btn-primary btn-xl" href="about.html">Zisti viac!</a>
             </div>
           </div>
         </div>
@@ -85,7 +90,7 @@
     <footer class="footer text-faded text-center py-5">
       <div class="container">
         <p class="m-0 small">Copyright &copy; Daniela Gregušová, Stanislav Jochman 2020</p>
-        <p class="m-0 small">Site created by<a style="color: #df902a;" href="http://stanislavjochman.sk/" target="_blank"> Stanislav Jochman 2020</a></p>
+        <p class="m-0 small">Site created by<a href="http://stanislavjochman.sk/" target="_blank"> Stanislav Jochman 2020</a></p>
       </div>
     </footer>
 
@@ -102,6 +107,33 @@
 
       gtag('config', 'G-0S1B2TW5TZ');
     </script>
+
+    <!--Messegner-->
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v6.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/sk_SK/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="110918270507299"
+      theme_color="#64555e">
+    </div>
+
 
   </body>
 </html>
