@@ -9,7 +9,7 @@ let countDown3 = new Date('Feb 27, 2020 16:00:00').getTime();
 let countDown4 = new Date('Feb 27, 2020 16:30:00').getTime();
 let countDown5 = new Date('Feb 27, 2020 17:00:00').getTime();
 let countDown6 = new Date('Feb 27, 2020 17:30:00').getTime();
-let countDown7 = new Date('Feb 27, 2020 18:00:00').getTime();
+let countDown7 = new Date('Mar 1, 2020 18:00:00').getTime();
 let countDown8 = new Date('Feb 27, 2020 19:45:00').getTime();
 let countDown9 = new Date('Feb 27, 2020 19:50:00').getTime();
 
