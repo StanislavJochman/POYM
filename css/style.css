@@ -404,3 +404,6 @@ html {
 .listky {
   width: 30%;
 }
+#speakers{
+  display: none;
+}
