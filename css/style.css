@@ -390,13 +390,17 @@ html {
   width: 95%;
   margin-left: 0%;
   height: 300px;
-  border: none;
-  border-radius: 1vw;
+  border-radius: 0.5vw;
+  
 }
 @media (min-width: 1100px) {
   .map{
+    margin-top: 1rem;
     width: 95%;
     height: 500px;
     margin-left: 0%;
   }
+}
+.listky {
+  width: 30%;
 }
